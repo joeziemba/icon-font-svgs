@@ -1,0 +1,12 @@
+@import "partials/vendor/scss/font-awesome";
+
+.bozo {
+	.nose {
+		transition: all .5s;
+
+        &:hover {
+        	fill: green;
+        	stroke: red;
+        	}
+	}
+}
